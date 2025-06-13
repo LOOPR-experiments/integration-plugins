@@ -1,0 +1,19 @@
+{
+  "name": "loopr-integration-plugins",
+  "version": "0.1.0",
+  "description": "Loopr integration plugins for Slack, Jira, and GitLab",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
